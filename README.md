@@ -1,11 +1,5 @@
 # VLCPlayerDemo
 
----
-layout: post
-title: VLCMediaPlayer的集成与使用
-date: 2017-08-05 16:26:24.000000000 +08:00
----
-
 VLC Media Player (VideoLAN) 为 Windows、Linux、OS X、Android、iOS、Windows Phone等平台提供一个视频播放器、解码器。它可以播放来自网络、摄像头、磁盘、光驱的文件，支持包括MPEG 1/2/4, H264, VC-1, DivX, WMV, Vorbis, AC3, AAC等格式的解码。在 Windows 和 Linux 上的 VLC 是使用C++/Qt写成，提供了一致的用户体验。同时 VLC 还专门为 OS X 提供了原生版本，OS X 版的 VLC 的用户界面使用Cocoa框架编写，在 OS X 下拥有卓越的原生体验。
 
 VLC集成
@@ -136,7 +130,7 @@ self.vlcPlayerView.rotateBlock = ^(NSInteger result){
         }
     };
 ```
-其他实现可参考Demo工程中详细代码。
+其他实现可参考Demo工程中详细代码。
 注:Demo由于MoblieVLCKit.framework过大暂不上传，请自选下载替换。
 
-本文参考[http://www.jianshu.com/p/178627b085c3](http://www.jianshu.com/p/178627b085c3)
+本文参考[http://www.jianshu.com/p/178627b085c3](http://www.jianshu.com/p/178627b085c3)
